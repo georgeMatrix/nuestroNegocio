@@ -50,7 +50,7 @@ class VeterinariaController extends Controller
     {
         $veterinaria = Veterinaria::find($id);
         $etiqueta = $id;
-        return view('negocioMO/detalle')->with('veterinaria', $veterinaria)->with('etiqueta', $etiqueta);
+        return view('negocioMO/detalle2')->with('veterinaria', $veterinaria)->with('etiqueta', $etiqueta);
     }
 
     /**

@@ -48,7 +48,7 @@ class FarmaciaController extends Controller
     public function show($id)
     {
         $farmacia = Farmacia::find($id);
-        return view('negocioMO/detalle', compact('farmacia'));
+        return view('negocioMO/detalle2', compact('farmacia'));
     }
 
 

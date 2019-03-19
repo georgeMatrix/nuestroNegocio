@@ -108,6 +108,19 @@
                             </div>
                         </div>
                     </div>
+                @elseif(!empty($tlapaleria))
+                    <div class="slider-item js-fullheight" style="background-image: url({{asset($tlapaleria->imagen)}});">
+                        <div class="overlay"></div>
+                        <div class="container">
+                            <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                                <div class="col-md-10 col-sm-12 ftco-animate"
+                                     data-scrollax=" properties: { translateY: '70%' }">
+                                    <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                    <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 @elseif(!empty($salon))
                     <div class="slider-item js-fullheight" style="background-image: url({{asset($salon->imagen)}});">
                         <div class="overlay"></div>
@@ -121,11 +134,10 @@
                             </div>
                         </div>
                     </div>
-                    @endif
-
-                    </div>
-            </div><!-- end:image -->
-            <div class="page-container contact-section float-right">
+                 @endif
+            </div>
+        </div><!-- end:image -->
+            <div class="slider-item js-fullheight page-container contact-section float-right">
                 <div class="row d-flex mb-5 contact-info">
                     <div class="col-md-12 mb-4">
                         <h2 class="h4"><b>Ficha de Detalle</b></h2>
@@ -167,6 +179,43 @@
                         </div>
                         <div class="col-md-12">
                             <p><span><i class="fas fa-book"></i> <b>Diplomado.</b> Infectologia en Perros y Gatos</span></p>
+                        </div>
+                    @endif
+                    @if(!empty($tlapaleria) and $etiqueta == 1)
+                        <a href="{{route('tlapaleria.create')}}" class="btn btn-danger">Click aqui para ver la galeria de imagenes</a>
+                        <div class="col-md-12">
+                            <p><span><i class="fas fa-dog"></i> <b>Tlapaleria:</b></span> Don Inda <i class="fas fa-cat"></i></p>
+                        </div>
+                        <div class="col-md-12">
+                            <p><span><i class="fas fa-map-marked-alt"></i></span> Av. Francisco I. Madero 265, Melchor Ocampo, 54880 Melchor Ocampo, Méx.</p>
+                        </div>
+                        <div class="col-md-12">
+                            <p><span><i class="fas fa-phone"></i></span> (55) 58 78 00 77</p>
+                        </div>
+                        <div class="col-md-12">
+                            <p><span><i class="fas fa-clock"></i> </span> 9:30 am - 19:30 pm</p>
+                        </div>
+                        <div class="col-md-12">
+                            <p><span><b>Articulos:</b> </span></p>
+                            <ul>
+                                <li><i class="far fa-check-circle"></i> Tubo galvanizado</li>
+                                <li><i class="far fa-check-circle"></i> Tubo de cobre</li>
+                                <li><i class="far fa-check-circle"></i> Solventes</li>
+                                <li><i class="far fa-check-circle"></i> petroleo</li>
+                                <li><i class="far fa-check-circle"></i> Aguarrás</li>
+                                <li><i class="far fa-check-circle"></i> Chapopote por kilo</li>
+                                <li><i class="far fa-check-circle"></i> Lija</li>
+                                <li><i class="far fa-check-circle"></i> Seguetas</li>
+                                <li><i class="far fa-check-circle"></i> Cuñas</li>
+                                <li><i class="far fa-check-circle"></i> Bultos:</li>
+                                <li>
+                                    <ul>
+                                        <li><i class="far fa-check-circle"></i> Calidra</li>
+                                        <li><i class="far fa-check-circle"></i> Pega Azulejo</li>
+                                        <li><i class="far fa-check-circle"></i> Calidra</li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                     @endif
                     @if(!empty($banquete))
@@ -259,6 +308,9 @@
                                     frameborder="0" style="border:0" allowfullscreen></iframe>
                         @elseif(!empty($salon))
                             <iframe class="embed-responsive-item" src="{{$salon->maps}}" width="600" height="450"
+                                    frameborder="0" style="border:0" allowfullscreen></iframe>
+                        @elseif(!empty($tlapaleria))
+                            <iframe class="embed-responsive-item" src="{{$tlapaleria->maps}}" width="600" height="450"
                                     frameborder="0" style="border:0" allowfullscreen></iframe>
                         @endif
                     </div>

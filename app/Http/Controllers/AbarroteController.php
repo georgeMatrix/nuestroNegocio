@@ -48,7 +48,7 @@ class AbarroteController extends Controller
     public function show($id)
     {
         $tienda = Abarrote::find($id);
-        return view('negocioMO/detalle', compact('tienda'));
+        return view('negocioMO/detalle2', compact('tienda'));
     }
 
     /**

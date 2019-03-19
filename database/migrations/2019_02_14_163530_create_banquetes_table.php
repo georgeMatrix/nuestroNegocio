@@ -40,6 +40,15 @@ class CreateBanquetesTable extends Migration
             $table->string('dato20');
             $table->string('direccion');
             $table->string('imagen');
+            $table->string('imagen2');
+            $table->string('imagen3');
+            $table->string('imagen4');
+            $table->string('imagen5');
+            $table->string('imagen6');
+            $table->string('imagen7');
+            $table->string('imagen8');
+            $table->string('imagen9');
+            $table->string('imagen10');
             $table->string('maps', 300);
             $table->timestamps();
         });

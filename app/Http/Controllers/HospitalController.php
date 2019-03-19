@@ -48,7 +48,7 @@ class HospitalController extends Controller
     public function show($id)
     {
         $hospital = Hospital::find($id);
-        return view('negocioMO/detalle', compact('hospital'));
+        return view('negocioMO/detalle2', compact('hospital'));
     }
 
     /**

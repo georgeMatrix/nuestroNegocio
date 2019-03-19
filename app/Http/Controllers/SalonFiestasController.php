@@ -48,7 +48,7 @@ class SalonFiestasController extends Controller
     public function show($id)
     {
         $salon = SalonFiestas::find($id);
-        return view('negocioMO/detalle', compact('salon'));
+        return view('negocioMO/detalle2', compact('salon'));
     }
 
     /**

@@ -2,6 +2,9 @@
 @section('contenido')
 
     <section class="ftco-fixed clearfix">
+        <!-- =============================================================================================================== -->
+        <!-- ============================================= SECCION DE PROMOCION ============================================ -->
+        <!-- =============================================================================================================== -->
         <div class="image js-fullheight float-left">
             <div class="home-slider owl-carousel js-fullheight">
                 <div class="slider-item js-fullheight" style="background-image: url('negocio/images/bg_4.jpg');">
@@ -17,7 +20,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="slider-item js-fullheight" style="background-image: url('negocio/images/bg_1.jpg');">
                     <div class="overlay"></div>
                     <div class="container">
@@ -31,7 +33,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="slider-item js-fullheight" style="background-image: url('negocio/images/bg_3.jpg');">
                     <div class="overlay"></div>
                     <div class="container">
@@ -48,6 +49,9 @@
             </div>
         </div>
 
+        <!-- =============================================================================================================== -->
+        <!-- ============================================= SECCION DE PROMOCION ============================================ -->
+        <!-- =============================================================================================================== -->
         <div class="page-container float-right">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
@@ -65,7 +69,6 @@
                             </div>
                         </div>
                     @endforeach
-
                     @elseif(!empty($refaccionarias))
                         @foreach($refaccionarias as $refaccionaria)
                             <div class="blog-entry-4 d-flex ftco-animate">
@@ -80,21 +83,20 @@
                                 </div>
                             </div>
                     @endforeach
-
-                        @elseif(!empty($panaderias))
-                            @foreach($panaderias as $panaderia)
-                                <div class="blog-entry-4 d-flex ftco-animate">
-                                    <a href="{{route('panaderia.show', $panaderia->id)}}" class="blog-img"
-                                       style="background-image: url({{$panaderia->imagen}});">
-                                    </a>
-                                    <div class="text">
-                                        <h3 class="mb-4">{{$panaderia->nombre}}</h3>
-                                        <p>Direccion: {{$panaderia->direccion}}</p>
-                                        <p>Cel:{{$panaderia->telefono}}</p>
-                                        <a href="{{route('panaderia.show', $panaderia->id)}}"><p>Mas Información</p></a>
-                                    </div>
+                    @elseif(!empty($panaderias))
+                        @foreach($panaderias as $panaderia)
+                            <div class="blog-entry-4 d-flex ftco-animate">
+                                <a href="{{route('panaderia.show', $panaderia->id)}}" class="blog-img"
+                                   style="background-image: url({{$panaderia->imagen}});">
+                                </a>
+                                <div class="text">
+                                    <h3 class="mb-4">{{$panaderia->nombre}}</h3>
+                                    <p>Direccion: {{$panaderia->direccion}}</p>
+                                    <p>Cel:{{$panaderia->telefono}}</p>
+                                    <a href="{{route('panaderia.show', $panaderia->id)}}"><p>Mas Información</p></a>
                                 </div>
-                        @endforeach
+                            </div>
+                    @endforeach
                     @elseif(!empty($farmacias))
                         @foreach($farmacias as $farmacia)
                             <div class="blog-entry-4 d-flex ftco-animate">
@@ -193,137 +195,37 @@
                                 </div>
                             </div>
                     @endforeach
+                    @elseif(!empty($tlapalerias))
+                        @foreach($tlapalerias as $tlapaleria)
+                            <div class="blog-entry-4 d-flex ftco-animate">
+                                <a href="{{route('tlapaleria.show', $tlapaleria->id)}}" class="blog-img"
+                                   style="background-image: url({{$tlapaleria->imagen}});">
+                                </a>
+                                <div class="text">
+                                    <h3 class="mb-4">{{$tlapaleria->nombre}}</h3>
+                                    <p>Direccion: {{$tlapaleria->direccion}}</p>
+                                    <p>Telefono: {{$tlapaleria->telefono}}</p>
+                                    <a href="{{route('tlapaleria.show', $tlapaleria->id)}}"><p>Mas Información</p></a>
+                                </div>
+                            </div>
+                    @endforeach
+                    @elseif(!empty($mueblerias))
+                        @foreach($mueblerias as $muebleria)
+                            <div class="blog-entry-4 d-flex ftco-animate">
+                                <a href="{{route('muebleria.show', $muebleria->id)}}" class="blog-img"
+                                   style="background-image: url({{$muebleria->imagen}});">
+                                </a>
+                                <div class="text">
+                                    <h3 class="mb-4">{{$muebleria->nombre}}</h3>
+                                    <p>Direccion: {{$muebleria->direccion}}</p>
+                                    <p>Telefono: {{$muebleria->celular}}</p>
+                                    <a href="{{route('muebleria.show', $muebleria->id)}}"><p>Mas Información</p></a>
+                                </div>
+                            </div>
+                    @endforeach
                     @endif
-                <!--<div class="blog-entry-4 d-flex ftco-animate">
-      					<a href="blog-single.html" class="blog-img" style="background-image: url(images/image_2.jpg);">
-	      				</a>
-	      				<div class="text">
-	      					<h3 class="mb-4">The Big Oxmox advised her not to do so, because there</h3>
-	      					<p class="meta">
-                  	<span>Admin</span>
-                  	<span><a href="#">July 29, 2018</a></span>
-                  	<span><a href="#">Fashion</a></span>
-                  	<span><a href="#">12 Comments</a></span>
-                  </p>
-	      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
-	      				</div>
-      				</div>
-
-      				<div class="blog-entry-4 d-flex ftco-animate">
-      					<a href="blog-single.html" class="blog-img" style="background-image: url(images/image_3.jpg);">
-	      				</a>
-	      				<div class="text">
-	      					<h3 class="mb-4">The Big Oxmox advised her not to do so, because there</h3>
-	      					<p class="meta">
-                  	<span>Admin</span>
-                  	<span><a href="#">July 29, 2018</a></span>
-                  	<span><a href="#">Fashion</a></span>
-                  	<span><a href="#">12 Comments</a></span>
-                  </p>
-	      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
-	      				</div>
-      				</div>
-
-      				<div class="blog-entry-4 d-flex ftco-animate">
-      					<a href="blog-single.html" class="blog-img" style="background-image: url(images/image_4.jpg);">
-	      				</a>
-	      				<div class="text">
-	      					<h3 class="mb-4">The Big Oxmox advised her not to do so, because there</h3>
-	      					<p class="meta">
-                  	<span>Admin</span>
-                  	<span><a href="#">July 29, 2018</a></span>
-                  	<span><a href="#">Fashion</a></span>
-                  	<span><a href="#">12 Comments</a></span>
-                  </p>
-	      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
-	      				</div>
-      				</div>
-
-      				<div class="blog-entry-4 d-flex ftco-animate">
-      					<a href="blog-single.html" class="blog-img" style="background-image: url(images/image_5.jpg);">
-	      				</a>
-	      				<div class="text">
-	      					<h3 class="mb-4">The Big Oxmox advised her not to do so, because there</h3>
-	      					<p class="meta">
-                  	<span>Admin</span>
-                  	<span><a href="#">July 29, 2018</a></span>
-                  	<span><a href="#">Fashion</a></span>
-                  	<span><a href="#">12 Comments</a></span>
-                  </p>
-	      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
-	      				</div>
-      				</div>
-
-      				<div class="blog-entry-4 d-flex ftco-animate">
-      					<a href="blog-single.html" class="blog-img" style="background-image: url(images/image_6.jpg);">
-	      				</a>
-	      				<div class="text">
-	      					<h3 class="mb-4">The Big Oxmox advised her not to do so, because there</h3>
-	      					<p class="meta">
-                  	<span>Admin</span>
-                  	<span><a href="#">July 29, 2018</a></span>
-                  	<span><a href="#">Fashion</a></span>
-                  	<span><a href="#">12 Comments</a></span>
-                  </p>
-	      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
-	      				</div>
-      				</div>
-
-      				<div class="blog-entry-4 d-flex ftco-animate">
-      					<a href="blog-single.html" class="blog-img" style="background-image: url(images/image_7.jpg);">
-	      				</a>
-	      				<div class="text">
-	      					<h3 class="mb-4">The Big Oxmox advised her not to do so, because there</h3>
-	      					<p class="meta">
-                  	<span>Admin</span>
-                  	<span><a href="#">July 29, 2018</a></span>
-                  	<span><a href="#">Fashion</a></span>
-                  	<span><a href="#">12 Comments</a></span>
-                  </p>
-	      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
-	      				</div>
-      				</div>
-
-      				<div class="blog-entry-4 d-flex ftco-animate">
-      					<a href="blog-single.html" class="blog-img" style="background-image: url(images/image_8.jpg);">
-	      				</a>
-	      				<div class="text">
-	      					<h3 class="mb-4">The Big Oxmox advised her not to do so, because there</h3>
-	      					<p class="meta">
-                  	<span>Admin</span>
-                  	<span><a href="#">July 29, 2018</a></span>
-                  	<span><a href="#">Fashion</a></span>
-                  	<span><a href="#">12 Comments</a></span>
-                  </p>
-	      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
-	      				</div>
-      				</div>-->
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col text-center">
-                    <div class="block-27">
-                        <ul>
-                            <li><a href="#">&lt;</a></li>
-                            <li class="active"><span>1</span></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#">&gt;</a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div><!-- end: page-container-->
     </section>
-
-    <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen">
-        <svg class="circular" width="48px" height="48px">
-            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
-            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-                    stroke="#F96D00"/>
-        </svg>
-    </div>
 @endsection

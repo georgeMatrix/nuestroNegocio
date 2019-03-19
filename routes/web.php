@@ -33,3 +33,19 @@ Route::resource('veterinaria', 'VeterinariaController');
 Route::resource('bares', 'BaresController');
 Route::resource('pizza', 'PizzaController');
 Route::resource('banquete', 'BanquetesController');
+Route::resource('tlapaleria', 'TlapaleriaController');
+Route::resource('muebleria', 'MuebleriaController');
+
+//Aun no tienen nada
+Route::resource('cocina', 'CocinaController');
+Route::resource('talleresE', 'TalleresEController');
+Route::resource('carpinteria', 'CarpinteriaEController');
+Route::resource('talleresM', 'TalleresMController');
+Route::resource('vino', 'VinoController');
+Route::resource('fotografia', 'FotografiaController');
+Route::resource('reparacionE', 'reparacionEController');
+Route::resource('sastreria', 'SastreriaController');
+Route::resource('tintoreria', 'TintoreriaController');
+Route::resource('torteria', 'TorteriaController');
+
+

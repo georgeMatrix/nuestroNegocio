@@ -58,6 +58,18 @@
                         </div>
                     </div>
                     <div class="blog-entry ftco-animate">
+                        <a href="{{route('muebleria.index')}}" class="blog-image">
+                            <img src="negocio/images/muebleria.jpeg" class="img-fluid" alt="">
+                        </a>
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="{{route('muebleria.index')}}">Enero 1, 2019</a></div>
+                            </div>
+                            <h3 class="heading"><a href="#">Muebleria</a></h3>
+                            <p>Partido de futbol </p>
+                        </div>
+                    </div>
+                    <div class="blog-entry ftco-animate">
                         <a href="{{route('pizza.index')}}" class="blog-image">
                             <img src="negocio/images/pizza.jpg" class="img-fluid" alt="">
                         </a>
@@ -181,6 +193,18 @@
                         </div>
                     </div>
                     <div class="blog-entry ftco-animate">
+                        <a href="{{route('tlapaleria.index')}}" class="blog-image">
+                            <img src="negocio/images/tlapaleria.jpg" class="img-fluid" alt="">
+                        </a>
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">Enero 1, 2019</a></div>
+                            </div>
+                            <h3 class="heading"><a href="{{route('tlapaleria.index')}}">Tlapalerias</a></h3>
+                            <p>Si necesitas clavos, focos, mangueras y chapas aqui debes de entrar</p>
+                        </div>
+                    </div>
+                    <div class="blog-entry ftco-animate">
                         <a href="{{route('refaccionaria.index')}}" class="blog-image">
                             <img src="negocio/images/refaccionaria.jpg" class="img-fluid" alt="">
                         </a>
@@ -214,18 +238,6 @@
                             </div>
                             <h3 class="heading"><a href="#">Cocina economica y Restaurante</a></h3>
                             <p>Se te antojo algo para desayunar, comer o cenar? Aqui seguro que encuentras algo.</p>
-                        </div>
-                    </div>
-                    <div class="blog-entry ftco-animate">
-                        <a href="blog-single.html" class="blog-image">
-                            <img src="negocio/images/tlapaleria.jpg" class="img-fluid" alt="">
-                        </a>
-                        <div class="text py-4">
-                            <div class="meta">
-                                <div><a href="#">Enero 1, 2019</a></div>
-                            </div>
-                            <h3 class="heading"><a href="#">Tlapalerias</a></h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                         </div>
                     </div>
                     <div class="blog-entry ftco-animate">

@@ -48,7 +48,8 @@ class BanquetesController extends Controller
     public function show($id)
     {
         $banquete = Banquetes::find($id);
-        return view('negocioMO/detalle')->with('banquete', $banquete);
+        $etiqueta = $id;
+        return view('negocioMO/detalle2')->with('banquete', $banquete)->with('etiqueta', $etiqueta);
     }
 
     /**

@@ -48,7 +48,7 @@ class RefaccionariaController extends Controller
     public function show($id)
     {
         $refaccionaria = Refaccionaria::find($id);
-        return view('negocioMO/detalle', compact('refaccionaria'));
+        return view('negocioMO/detalle2', compact('refaccionaria'));
     }
 
 
