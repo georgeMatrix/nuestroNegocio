@@ -221,6 +221,79 @@
                         </div>
                     </div>
                 </div>
+            @elseif(!empty($ropa))
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($ropa->imagen)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($ropa->imagen2)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($ropa->imagen3)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($ropa->imagen4)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($ropa->imagen5)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($ropa->imagen6)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
             @elseif(!empty($salon))
                 <div class="slider-item js-fullheight" style="background-image: url({{asset($salon->imagen)}});">
                     <div class="overlay"></div>
@@ -487,6 +560,50 @@
                         </div>
                     </div>
                 </div>
+            @elseif(!empty($ropa) and $etiqueta == 1)
+                <div class="col-md-8" style="background-image: url({{asset($ropa->imagen9)}}); background-repeat:no-repeat">
+                    <div class="blog-entry ftco-animate">
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">19 Abril, 2019</a></div>
+                                <div><a href="#">Fecha de Vencimiento</a></div>
+                            </div>
+                            <h3 class="heading"><a href="#">{{$ropa->nombre}}</a></h3>
+                            <p><span><i class="fas fa-map-marked-alt"></i></span> {{$ropa->direccion}}</p>
+                            <p><span><i class="fas fa-mobile"></i></span> {{$ropa->celular}}</p>
+                            <p><span><i class="fas fa-clock"></i> </span> Horarios: Miercoles a Domingo de 10:00am - 3:00pm</p>
+                            <p><span><i class="far fa-bookmark"></i> </span><b> {{$ropa->dato1}} </b></p>
+                            <p><span><i class="far fa-bookmark"></i> </span><b> {{$ropa->dato2}} </b></p>
+                            <p><span><i class="far fa-bookmark"></i> </span><b> {{$ropa->dato3}}</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-entry ftco-animate">
+                        <a href="#" class="blog-image">
+                            <img src="{{asset($ropa->imagen3)}}" class="img-fluid" alt="">
+                        </a>
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">Ultima actualizacion de Imagen</a></div>
+                                <div><a href="#">18 de Marzo 2019</a></div>
+                            </div>
+                            <h3 class="heading"><a href="#">Regalos</a></h3>
+                        </div>
+                    </div>
+                    <div class="blog-entry ftco-animate">
+                        <a href="#" class="blog-image">
+                            <img src="{{asset($ropa->imagen4)}}" class="img-fluid" alt="">
+                        </a>
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">Ultima actualizacion de Imagen</a></div>
+                                <div><a href="#">18 de Marzo 2019</a></div>
+                            </div>
+                            <h3 class="heading"><a href="#">Y mas regalos</a></h3>
+                        </div>
+                    </div>
+                </div>
             @else
                 <div class="col-md-8" >
                     <div class="blog-entry ftco-animate">
@@ -546,6 +663,9 @@
                             frameborder="0" style="border:0" allowfullscreen></iframe>
                 @elseif(!empty($muebleria))
                     <iframe class="embed-responsive-item" src="{{$muebleria->maps}}" width="100%"
+                            frameborder="0" style="border:0" allowfullscreen></iframe>
+                @elseif(!empty($ropa))
+                    <iframe class="embed-responsive-item" src="{{$ropa->maps}}" width="100%"
                             frameborder="0" style="border:0" allowfullscreen></iframe>
                 @else
                 <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.4211797671783!2d-99.14964038515345!3d19.69468478673597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f5205a2b2e5d%3A0x88689a5284b69534!2sFORMATOWEBGX!5e0!3m2!1ses!2smx!4v1552967393251" width="100%"

@@ -223,6 +223,20 @@
                                 </div>
                             </div>
                     @endforeach
+                    @elseif(!empty($ropas))
+                        @foreach($ropas as $ropa)
+                            <div class="blog-entry-4 d-flex ftco-animate">
+                                <a href="{{route('ropa.show', $ropa->id)}}" class="blog-img"
+                                   style="background-image: url({{$ropa->imagen}});">
+                                </a>
+                                <div class="text">
+                                    <h3 class="mb-4">{{$ropa->nombre}}</h3>
+                                    <p>Direccion: {{$ropa->direccion}}</p>
+                                    <p>Telefono: {{$ropa->celular}}</p>
+                                    <a href="{{route('ropa.show', $ropa->id)}}"><p>Mas Información</p></a>
+                                </div>
+                            </div>
+                        @endforeach
                     @endif
                 </div>
             </div>

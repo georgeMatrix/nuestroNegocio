@@ -35,6 +35,8 @@ Route::resource('pizza', 'PizzaController');
 Route::resource('banquete', 'BanquetesController');
 Route::resource('tlapaleria', 'TlapaleriaController');
 Route::resource('muebleria', 'MuebleriaController');
+Route::resource('regalos', 'RegalosController');
+Route::resource('ropa', 'RopaController');
 
 //Aun no tienen nada
 Route::resource('cocina', 'CocinaController');

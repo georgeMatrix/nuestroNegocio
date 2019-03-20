@@ -4,25 +4,23 @@
     <section class="ftco-fixed clearfix">
         <div class="image js-fullheight float-left">
             <div class="home-slider owl-carousel js-fullheight">
-                <div class="slider-item js-fullheight" style="background-image: url('negocio/images/bg_1.jpg');">
+                <div class="slider-item js-fullheight" style="background-size: 100%; background-image: url('negocio/images/promocion1.jpg');">
                     <div class="overlay"></div>
                     <div class="container">
                         <div class="row slider-text align-items-center" data-scrollax-parent="true">
-                            <div class="col-md-10 col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                                <p class="cat"><span>Negocios</span></p>
-                                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Negocios de Melchor Ocampo</h1>
+                            <div class="col-md-10 col-xs-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"></h1>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="slider-item js-fullheight" style="background-image: url('negocio/images/bg_2.jpg');">
+                <div class="slider-item js-fullheight" style="background-size: 100%; background-image: url('negocio/images/promocion2.jpg');">
                     <div class="overlay"></div>
                     <div class="container">
                         <div class="row slider-text align-items-center" data-scrollax-parent="true">
                             <div class="col-md-10 col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                                <p class="cat"><span>Melchor Ocampo</span></p>
-                                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Promociona tu negocio en este sitio</h1>
+                                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"></h1>
                             </div>
                         </div>
                     </div>
@@ -66,7 +64,7 @@
                                 <div><a href="{{route('muebleria.index')}}">Enero 1, 2019</a></div>
                             </div>
                             <h3 class="heading"><a href="#">Muebleria</a></h3>
-                            <p>Partido de futbol </p>
+                            <p>Salas, Roperos, mesas, y todo lo que tu hogar necesita </p>
                         </div>
                     </div>
                     <div class="blog-entry ftco-animate">
@@ -205,6 +203,18 @@
                         </div>
                     </div>
                     <div class="blog-entry ftco-animate">
+                        <a href="{{route('regalos.index')}}" class="blog-image">
+                            <img src="negocio/images/regalos.jpg" class="img-fluid" alt="">
+                        </a>
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">Enero 1, 2019</a></div>
+                            </div>
+                            <h3 class="heading"><a href="{{route('regalos.index')}}">Regalos y Novedades</a></h3>
+                            <p>La fiesta de pablito es en una semana y no tengo un regalo...Entonces entra aquí y escogele uno</p>
+                        </div>
+                    </div>
+                    <div class="blog-entry ftco-animate">
                         <a href="{{route('refaccionaria.index')}}" class="blog-image">
                             <img src="negocio/images/refaccionaria.jpg" class="img-fluid" alt="">
                         </a>
@@ -217,8 +227,20 @@
                         </div>
                     </div>
                     <div class="blog-entry ftco-animate">
+                        <a href="{{route('ropa.index')}}" class="blog-image">
+                            <img src="negocio/images/ropa.jpg" class="img-fluid" alt="">
+                        </a>
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">Enero 1, 2019</a></div>
+                            </div>
+                            <h3 class="heading"><a href="{{route('ropa.index')}}">Ropa y Maquillaje</a></h3>
+                            <p>Es hora de cambiar de guardarropa</p>
+                        </div>
+                    </div>
+                    <div class="blog-entry ftco-animate">
                         <a href="{{route('farmacia.index')}}" class="blog-image">
-                            <img src="negocio/images/farmacia.jpg" class="img-fluid" alt="">
+                            <img src="negocio/images/ropa.jpg" class="img-fluid" alt="">
                         </a>
                         <div class="text py-4">
                             <div class="meta">
