@@ -17,6 +17,7 @@ class CreateAbarrotesTable extends Migration
             $table->increments('id');
             $table->string('nombre');
             $table->string('telefono');
+            $table->string('celular');
             $table->string('dato1');
             $table->string('dato2');
             $table->string('dato3');

@@ -93,34 +93,30 @@
             <div class="row d-flex justify-content-end">
                 <div class="col-md-12 px-5">
                     <ul class="mb-5">
-                        <li class="active"><a href="{{route('negocios.index')}}"><span>Inicio</span></a></li>
-                        <li class="active"><a href="{{route('veterinaria.index')}}"><span>Veterinarias</span></a></li>
+
+                        <li class="active"><a href="{{route('abarrote.index')}}"><span>Abarrotes</span></a></li>
                         <li class="active"><a href="{{route('banquete.index')}}"><span>Banquetes</span></a></li>
                         <li class="active"><a href="{{route('bares.index')}}"><span>Bares</span></a></li>
-                        <li class="active"><a href="{{route('tlapaleria.index')}}"><span>Tlapalerias</span></a></li>
-                        <li class="active"><a href="{{route('muebleria.index')}}"><span>Mueblerias</span></a></li>
-                        <li class="active"><a href="{{route('refaccionaria.index')}}"><span>Refaccionarias</span></a></li>
-                        <li class="active"><a href="{{route('pizza.index')}}"><span>Pizzas</span></a></li>
-                        <li class="active"><a href="{{route('farmacia.index')}}"><span>Farmacias</span></a></li>
-                        <li class="active"><a href="{{route('abarrote.index')}}"><span>Abarrotes</span></a></li>
-                        <li class="active"><a href="{{route('cocina.index')}}"><span>Cocina economica y restaurantes</span></a></li>
-                        <li class="active"><a href="{{route('panaderia.index')}}"><span>Panaderias y Pastelerias</span></a></li>
-                        <li class="active"><a href="{{route('talleresE.index')}}"><span>Talleres Electricos</span></a></li>
-                        <li class="active"><a href="{{route('hospital.index')}}"><span>Hospitales Clinicas y Sanatorios</span></a></li>
                         <li class="active"><a href="{{route('carpinteria.index')}}"><span>Carpinterias</span></a></li>
-                        <li class="active"><a href="{{route('talleresM.index')}}"><span>Talleres Mecanicos</span></a></li>
-                        <li class="active"><a href="{{route('vino.index')}}"><span>Vinos y Licores</span></a></li>
-                        <li class="active"><a href="{{route('salonDeFiestas.index')}}"><span>Salon de fiestas</span></a></li>
+                        <li class="active"><a href="{{route('cocina.index')}}"><span>Cocina economica y restaurantes</span></a></li>
+                        <li class="active"><a href="{{route('farmacia.index')}}"><span>Farmacias</span></a></li>
                         <li class="active"><a href="{{route('fotografia.index')}}"><span>Fotografia</span></a></li>
+                        <li class="active"><a href="{{route('hospital.index')}}"><span>Hospitales Clinicas y Sanatorios</span></a></li>
+                        <li class="active"><a href="{{route('muebleria.index')}}"><span>Mueblerias</span></a></li>
+                        <li class="active"><a href="{{route('panaderia.index')}}"><span>Panaderias y Pastelerias</span></a></li>
+                        <li class="active"><a href="{{route('pizza.index')}}"><span>Pizzas</span></a></li>
+                        <li class="active"><a href="{{route('refaccionaria.index')}}"><span>Refaccionarias</span></a></li>
                         <li class="active"><a href="{{route('reparacionE.index')}}"><span>Reparacion de Electrodomesticos</span></a></li>
+                        <li class="active"><a href="{{route('ropa.index')}}"><span>Ropa y Maquillaje</span></a></li>
+                        <li class="active"><a href="{{route('salonDeFiestas.index')}}"><span>Salon de fiestas</span></a></li>
                         <li class="active"><a href="{{route('sastreria.index')}}"><span>Sastrerías</span></a></li>
+                        <li class="active"><a href="{{route('talleresE.index')}}"><span>Talleres Electricos</span></a></li>
+                        <li class="active"><a href="{{route('talleresM.index')}}"><span>Talleres Mecanicos</span></a></li>
                         <li class="active"><a href="{{route('tintoreria.index')}}"><span>Tintorerias</span></a></li>
+                        <li class="active"><a href="{{route('tlapaleria.index')}}"><span>Tlapalerias</span></a></li>
                         <li class="active"><a href="{{route('torteria.index')}}"><span>Torterias</span></a></li>
-                        <!-- <li><a href="fashion"><span>Fashion</span></a></li>
-                        <li><a href="model.html"><span>Model</span></a></li>
-                        <li><a href="travel"><span>Travel</span></a></li>
-                        <li><a href="about.html"><span>About us</span></a></li>
-                        <li><a href="contact.html"><span>Contact</span></a></li> -->
+                        <li class="active"><a href="{{route('vino.index')}}"><span>Vinos y Licores</span></a></li>
+                        <li class="active"><a href="{{route('veterinaria.index')}}"><span>Veterinarias</span></a></li>
                     </ul>
                 </div>
             </div>

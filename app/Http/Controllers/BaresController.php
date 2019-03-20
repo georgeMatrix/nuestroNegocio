@@ -48,7 +48,8 @@ class BaresController extends Controller
     public function show($id)
     {
         $bar = Bares::find($id);
-        return view('negocioMO/detalle', compact('bar'));
+        $etiqueta = $id;
+        return view('negocioMO/detalle2')->with('bar', $bar)->with('etiqueta', $etiqueta);
     }
 
     /**

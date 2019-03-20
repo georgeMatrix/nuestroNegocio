@@ -72,6 +72,54 @@
                         </div>
                     </div>
                 </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($bar->imagen3)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($bar->imagen4)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($bar->imagen5)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($bar->imagen2)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
             @elseif(!empty($refaccionaria))
                 <div class="slider-item js-fullheight" style="background-image: url({{asset($refaccionaria->imagen)}});">
                     <div class="overlay"></div>
@@ -601,6 +649,45 @@
                                 <div><a href="#">18 de Marzo 2019</a></div>
                             </div>
                             <h3 class="heading"><a href="#">Y mas regalos</a></h3>
+                        </div>
+                    </div>
+                </div>
+            @elseif(!empty($bar) and $etiqueta == 1)
+                <div class="col-md-8" style="background-image: url({{asset($bar->imagen6)}}); background-repeat:no-repeat">
+                    <div class="blog-entry ftco-animate">
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">19 Abril, 2019</a></div>
+                                <div><a href="#">Fecha de Vencimiento</a></div>
+                            </div>
+                            <h3 class="heading"><a href="#">{{$bar->nombre}}</a></h3>
+                            <p><span><i class="fas fa-map-marked-alt"></i></span> {{$bar->direccion}}</p>
+                            <p><span><i class="fas fa-mobile"></i></span> {{$bar->celular}}</p>
+                            <p><span><i class="fas fa-clock"></i> </span> Promociones: Miercoles y Miercoles Cerveza 2x1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-entry ftco-animate">
+                        <a href="#" class="blog-image">
+                            <img src="{{asset($bar->imagen3)}}" class="img-fluid" alt="">
+                        </a>
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">Ultima actualizacion de Imagen</a></div>
+                                <div><a href="#">18 de Marzo 2019</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-entry ftco-animate">
+                        <a href="#" class="blog-image">
+                            <img src="{{asset($bar->imagen4)}}" class="img-fluid" alt="">
+                        </a>
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">Ultima actualizacion de Imagen</a></div>
+                                <div><a href="#">18 de Marzo 2019</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>

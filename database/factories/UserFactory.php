@@ -26,6 +26,7 @@ $factory->define(App\Abarrote::class, function (Faker $faker) {
     return [
         'nombre' => $faker->name,
         'telefono' => $faker->phoneNumber,
+        'celular' => $faker->name,
         'dato1' => $faker->name,
         'dato2' => $faker->name,
         'dato3' => $faker->name,
@@ -65,6 +66,7 @@ $factory->define(App\Refaccionaria::class, function (Faker $faker) {
     return [
         'nombre' => $faker->name,
         'telefono' => $faker->phoneNumber,
+        'celular' => $faker->name,
         'dato1' => $faker->name,
         'dato2' => $faker->name,
         'dato3' => $faker->name,
@@ -114,6 +116,7 @@ $factory->define(App\Farmacia::class, function (Faker $faker) {
     return [
         'nombre' => $faker->name,
         'telefono' => $faker->phoneNumber,
+        'celular' => $faker->name,
         'dato1' => $faker->name,
         'dato2' => $faker->name,
         'dato3' => $faker->name,
@@ -153,6 +156,7 @@ $factory->define(App\Hospital::class, function (Faker $faker) {
     return [
         'nombre' => $faker->name,
         'telefono' => $faker->phoneNumber,
+        'celular' => $faker->name,
         'dato1' => $faker->name,
         'dato2' => $faker->name,
         'dato3' => $faker->name,
@@ -192,6 +196,7 @@ $factory->define(App\SalonFiestas::class, function (Faker $faker) {
     return [
         'nombre' => $faker->name,
         'telefono' => $faker->phoneNumber,
+        'celular' => $faker->name,
         'dato1' => $faker->name,
         'dato2' => $faker->name,
         'dato3' => $faker->name,
@@ -231,6 +236,7 @@ $factory->define(App\Veterinaria::class, function (Faker $faker) {
     return [
         'nombre' => $faker->name,
         'telefono' => $faker->phoneNumber,
+        'celular' => $faker->name,
         'dato1' => $faker->name,
         'dato2' => $faker->name,
         'dato3' => $faker->name,
@@ -270,6 +276,7 @@ $factory->define(App\Bares::class, function (Faker $faker) {
     return [
         'nombre' => $faker->name,
         'telefono' => $faker->phoneNumber,
+        'celular' => $faker->name,
         'dato1' => $faker->name,
         'dato2' => $faker->name,
         'dato3' => $faker->name,
@@ -309,6 +316,7 @@ $factory->define(App\Pizza::class, function (Faker $faker) {
     return [
         'nombre' => $faker->name,
         'telefono' => $faker->phoneNumber,
+        'celular' => $faker->name,
         'dato1' => $faker->name,
         'dato2' => $faker->name,
         'dato3' => $faker->name,
@@ -348,6 +356,7 @@ $factory->define(App\Tlapaleria::class, function (Faker $faker) {
     return [
         'nombre' => $faker->name,
         'telefono' => $faker->phoneNumber,
+        'celular' => $faker->name,
         'dato1' => $faker->name,
         'dato2' => $faker->name,
         'dato3' => $faker->name,
