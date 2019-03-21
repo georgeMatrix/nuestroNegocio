@@ -7,7 +7,7 @@
         <!-- =============================================================================================================== -->
         <div class="image js-fullheight float-left">
             <div class="home-slider owl-carousel js-fullheight">
-                <div class="slider-item js-fullheight" style="background-image: url('negocio/images/bg_4.jpg');">
+                <div class="slider-item js-fullheight" style="background-image: url('negocio/images/promocion1.jpg');">
                     <div class="overlay"></div>
                     <div class="container">
 
@@ -20,7 +20,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slider-item js-fullheight" style="background-image: url('negocio/images/bg_1.jpg');">
+                <div class="slider-item js-fullheight" style="background-image: url('negocio/images/promocion2.jpg');">
                     <div class="overlay"></div>
                     <div class="container">
                         <div class="row slider-text align-items-center" data-scrollax-parent="true">
@@ -29,19 +29,6 @@
                                 <p class="cat"><span>Digital</span></p>
                                 <h1 class="mb-3" data-scrollax="properties: { translateY: '50%', opacity: 1.6 }">
                                     Los anuncios digitales son el futuro</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-item js-fullheight" style="background-image: url('negocio/images/bg_3.jpg');">
-                    <div class="overlay"></div>
-                    <div class="container">
-                        <div class="row slider-text align-items-center" data-scrollax-parent="true">
-                            <div class="col-md-10 col-sm-12 ftco-animate"
-                                 data-scrollax=" properties: { translateY: '70%' }">
-                                <p class="cat"><span>Publicidad</span></p>
-                                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                                    Llega a mas clientes con tu publicidad</h1>
                             </div>
                         </div>
                     </div>
@@ -237,7 +224,21 @@
                                 </div>
                             </div>
                         @endforeach
-                    @endif
+                        @elseif(!empty($cocinas))
+                            @foreach($cocinas as $cocina)
+                                <div class="blog-entry-4 d-flex ftco-animate">
+                                    <a href="{{route('cocina.show', $cocina->id)}}" class="blog-img"
+                                       style="background-image: url({{$cocina->imagen4}});">
+                                    </a>
+                                    <div class="text">
+                                        <h3 class="mb-4">{{$cocina->nombre}}</h3>
+                                        <p>Direccion: {{$cocina->direccion}}</p>
+                                        <p>Telefono: {{$cocina->celular}}</p>
+                                        <a href="{{route('cocina.show', $cocina->id)}}"><p>Mas Información</p></a>
+                                    </div>
+                                </div>
+                            @endforeach
+                        @endif
                 </div>
             </div>
         </div><!-- end: page-container-->

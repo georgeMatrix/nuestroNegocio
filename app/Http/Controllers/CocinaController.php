@@ -14,7 +14,8 @@ class CocinaController extends Controller
      */
     public function index()
     {
-        //
+        $cocinas = Cocina::all();
+        return view('negocioMO/negocios', compact('cocinas'));
     }
 
     /**
@@ -44,9 +45,11 @@ class CocinaController extends Controller
      * @param  \App\Cocina  $cocina
      * @return \Illuminate\Http\Response
      */
-    public function show(Cocina $cocina)
+    public function show($id)
     {
-        //
+        $cocina = Cocina::find($id);
+        $etiqueta = $id;
+        return view('negocioMO/detalle2')->with('cocina', $cocina)->with('etiqueta', $etiqueta);
     }
 
     /**

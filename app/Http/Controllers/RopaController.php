@@ -49,7 +49,12 @@ class RopaController extends Controller
     {
         $ropa = Ropa::find($id);
         $etiqueta = $id;
-        return view('negocioMO/detalle2')->with('ropa', $ropa)->with('etiqueta', $etiqueta);
+        if($id == 1){
+            $ropaWall = asset($ropa->imagen9);
+        }else{
+            $ropaWall = asset($ropa->imagen6);
+        }
+        return view('negocioMO/detalle2')->with('ropa', $ropa)->with('etiqueta', $etiqueta)->with('ropaWall', $ropaWall);
     }
 
     /**

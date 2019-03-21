@@ -240,7 +240,7 @@
                     </div>
                     <div class="blog-entry ftco-animate">
                         <a href="{{route('farmacia.index')}}" class="blog-image">
-                            <img src="negocio/images/ropa.jpg" class="img-fluid" alt="">
+                            <img src="negocio/images/farmacia.jpg" class="img-fluid" alt="">
                         </a>
                         <div class="text py-4">
                             <div class="meta">
@@ -251,14 +251,14 @@
                         </div>
                     </div>
                     <div class="blog-entry ftco-animate">
-                        <a href="blog-single.html" class="blog-image">
+                        <a href="{{route('cocina.index')}}" class="blog-image">
                             <img src="negocio/images/cocinaeconomicaYrestaurante.jpg" class="img-fluid" alt="">
                         </a>
                         <div class="text py-4">
                             <div class="meta">
                                 <div><a href="#">Enero 1, 2019</a></div>
                             </div>
-                            <h3 class="heading"><a href="#">Cocina economica y Restaurante</a></h3>
+                            <h3 class="heading"><a href="{{route('cocina.index')}}">Restaurante y Cocina economica</a></h3>
                             <p>Se te antojo algo para desayunar, comer o cenar? Aqui seguro que encuentras algo.</p>
                         </div>
                     </div>
