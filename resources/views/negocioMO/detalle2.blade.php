@@ -426,7 +426,175 @@
                         </div>
                     </div>
                 </div>
-
+            @elseif(!empty($salud))
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->imagen)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->imagen2)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->imagen3)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->imagen4)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->imagen5)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->imagen6)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->imagen7)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->imagen8)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->imagen9)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->imagen10)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->dato10)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->dato11)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->dato12)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight" style="background-image: url({{asset($salud->dato13)}});">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row slider-text align-items-end" data-scrollax-parent="true">
+                            <div class="col-md-10 col-sm-12 ftco-animate"
+                                 data-scrollax=" properties: { translateY: '70%' }">
+                                <!--<p class="breadcrumbs"><span><a href="index.blade.php">Home</a></span> <span>Contact</span></p>-->
+                                <!--<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ficha de Detalle</h1>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
             @elseif(!empty($ropa))
                 <div class="slider-item js-fullheight" style="background-image: url({{asset($ropa->imagen)}});">
                     <div class="overlay"></div>
@@ -735,10 +903,10 @@
                             <h3 class="heading"><a href="#">{{$muebleria->nombre}}</a></h3>
                             <p><span><i class="fas fa-map-marked-alt"></i></span> {{$muebleria->direccion}}</p>
                             <p><span><i class="fas fa-mobile"></i></span> {{$muebleria->celular}}</p>
-                            <p><span><i class="fas fa-clock"></i> </span> {{$muebleria->dato1}} </p>
-                            <p><span><i class="fas fa-clock"></i> </span> {{$muebleria->dato2}} </p>
-                            <p><span><i class="fas fa-clock"></i> </span> {{$muebleria->dato3}}</p>
-                            <p><span><i class="fas fa-clock"></i> </span> {{$muebleria->dato4}}</p>
+                            <p><span><i class="far fa-bookmark"></i> </span> {{$muebleria->dato1}} </p>
+                            <p><span><i class="far fa-bookmark"></i> </span> {{$muebleria->dato2}} </p>
+                            <p><span><i class="far fa-bookmark"></i> </span> {{$muebleria->dato3}}</p>
+                            <p><span><i class="far fa-bookmark"></i> </span> {{$muebleria->dato4}}</p>
                         </div>
                     </div>
                 </div>
@@ -875,7 +1043,7 @@
                             <h3 class="heading"><a href="#">{{$bar->nombre}}</a></h3>
                             <p><span><i class="fas fa-map-marked-alt"></i></span> {{$bar->direccion}}</p>
                             <p><span><i class="fas fa-mobile"></i></span> {{$bar->celular}}</p>
-                            <p><span><i class="fas fa-clock"></i> </span> Promociones: Miercoles y Miercoles Cerveza 2x1</p>
+                            <p><span><i class="far fa-bookmark"></i> </span> Promociones: Miercoles y Miercoles Cerveza 2x1</p>
                         </div>
                     </div>
                 </div>
@@ -887,7 +1055,7 @@
                         <div class="text py-4">
                             <div class="meta">
                                 <div><a href="#">Ultima actualizacion de Imagen</a></div>
-                                <div><a href="#">18 de Marzo 2019</a></div>
+                                <div><a href="#">20 de Marzo 2019</a></div>
                             </div>
                         </div>
                     </div>
@@ -898,7 +1066,7 @@
                         <div class="text py-4">
                             <div class="meta">
                                 <div><a href="#">Ultima actualizacion de Imagen</a></div>
-                                <div><a href="#">18 de Marzo 2019</a></div>
+                                <div><a href="#">20 de Marzo 2019</a></div>
                             </div>
                         </div>
                     </div>
@@ -908,20 +1076,20 @@
                     <div class="blog-entry ftco-animate">
                         <div class="text py-4">
                             <div class="meta">
-                                <div><a href="#">19 Abril, 2019</a></div>
+                                <div><a href="#">20 Abril, 2019</a></div>
                                 <div><a href="#">Fecha de Vencimiento</a></div>
                             </div>
                             <h3 class="heading"><a href="#">{{$cocina->nombre}}</a></h3>
                             <p><span><i class="fas fa-map-marked-alt"></i></span> {{$cocina->direccion}}</p>
                             <p><span><i class="fas fa-mobile"></i></span> {{$cocina->celular}}</p>
-                            <p><span><i class="fas fa-mobile"></i></span> {{$cocina->horarios}}</p>
-                            <p><span><i class="fas fa-mobile"></i></span> {{$cocina->dato1}}</p>
-                            <p><span><i class="fas fa-mobile"></i></span> {{$cocina->dato2}}</p>
-                            <p><span><i class="fas fa-mobile"></i></span> {{$cocina->dato3}}</p>
-                            <p><span><i class="fas fa-mobile"></i></span> {{$cocina->dato4}}</p>
-                            <p><span><i class="fas fa-mobile"></i></span> {{$cocina->dato5}}</p>
-                            <p><span><i class="fas fa-mobile"></i></span> {{$cocina->dato6}}</p>
-                            <p><span><i class="fas fa-mobile"></i></span> {{$cocina->dato7}}</p>
+                            <p><span><i class="fas fa-clock"></i></span> {{$cocina->horarios}}</p>
+                            <p><span><i class="far fa-bookmark"></i></span> {{$cocina->dato1}}</p>
+                            <p><span><i class="far fa-bookmark"></i></span> {{$cocina->dato2}}</p>
+                            <p><span><i class="far fa-bookmark"></i></span> {{$cocina->dato3}}</p>
+                            <p><span><i class="far fa-bookmark"></i></span> {{$cocina->dato4}}</p>
+                            <p><span><i class="far fa-bookmark"></i></span> {{$cocina->dato5}}</p>
+                            <p><span><i class="far fa-bookmark"></i></span> {{$cocina->dato6}}</p>
+                            <p><span><i class="far fa-bookmark"></i></span> {{$cocina->dato7}}</p>
                         </div>
                     </div>
                 </div>
@@ -933,7 +1101,7 @@
                         <div class="text py-4">
                             <div class="meta">
                                 <div><a href="#">Ultima actualizacion de Imagen</a></div>
-                                <div><a href="#">18 de Marzo 2019</a></div>
+                                <div><a href="#">20 de Marzo 2019</a></div>
                             </div>
                         </div>
                     </div>
@@ -945,7 +1113,70 @@
                         <div class="text py-4">
                             <div class="meta">
                                 <div><a href="#">Ultima actualizacion de video</a></div>
-                                <div><a href="#">18 de Marzo 2019</a></div>
+                                <div><a href="#">20 de Marzo 2019</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @elseif(!empty($salud) and $etiqueta == 1)
+                <div class="col-md-8" style="background-image: url({{asset($salud->dato19)}}); background-repeat:no-repeat">
+                    <div class="blog-entry ftco-animate">
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">21 Abril, 2019</a></div>
+                                <div><a href="#">Fecha de Vencimiento</a></div>
+                            </div>
+                            <h3 class="heading"><a href="#">{{$salud->nombre}}</a></h3>
+                            <p><span><i class="fas fa-map-marked-alt"></i></span> {{$salud->direccion}}</p>
+                            <p><span><i class="fas fa-mobile"></i></span> {{$salud->celular}}</p>
+                            <p><span><i class="fas fa-clock"></i></span> {{$salud->horarios}}</p>
+                            <p class="text-primary" style="font-size: 50px" ><span><i class="far fa-bookmark"></i></span> {{$salud->dato1}}</p>
+                            <p style="font-size: 35px; color: teal;"><strong><span><i class="far fa-bookmark"></i></span> {{$salud->dato2}}</strong></p>
+                            <p><span><i class="far fa-bookmark"></i></span> {{$salud->dato3}}</p>
+                            <p><span><i class="far fa-check-circle"></i></span> {{$salud->dato4}}</p>
+                            <p><span><i class="far fa-check-circle"></i></span> {{$salud->dato5}}</p>
+                            <p><span><i class="far fa-check-circle"></i></span> {{$salud->dato6}}</p>
+                            <p><span><i class="far fa-check-circle"></i></span> {{$salud->dato7}}</p>
+                            <p><span><i class="far fa-check-circle"></i></span> {{$salud->dato9}}</p>
+                            <p><span><i class="far fa-check-circle"></i></span> {{$salud->dato16}}</p>
+                            <p><span><i class="far fa-check-circle"></i></span> {{$salud->dato18}}</p>
+                            <p style="font-size: 25px; color: rebeccapurple;"><span><i class="far fa-check-circle"></i></span> {{$salud->dato17}}</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-entry ftco-animate">
+                        <a href="#" class="blog-image">
+                            <iframe src="{{$salud->dato14}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">Ultima actualizacion de Imagen</a></div>
+                                <div><a href="#">21 de Marzo 2019</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-entry ftco-animate">
+                        <a href="#" class="blog-image">
+                            <iframe src="{{$salud->dato15}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">Ultima actualizacion de video</a></div>
+                                <div><a href="#">21 de Marzo 2019</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-entry ftco-animate">
+                        <a href="#" class="blog-image">
+                            <img src="{{asset($salud->dato20)}}" class="img-fluid" alt="">
+                        </a>
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">Ultima actualizacion de video</a></div>
+                                <div><a href="#">21 de Marzo 2019</a></div>
                             </div>
                         </div>
                     </div>

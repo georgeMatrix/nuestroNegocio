@@ -564,3 +564,44 @@ $factory->define(App\Cocina::class, function (Faker $faker) {
         'maps' => $faker->name
     ];
 });
+
+$factory->define(App\Salud::class, function (Faker $faker) {
+    return [
+        'nombre' => $faker->name,
+        'telefono' => $faker->phoneNumber,
+        'celular' => $faker->name,
+        'horarios' => $faker->name,
+        'dato1' => $faker->name,
+        'dato2' => $faker->name,
+        'dato3' => $faker->name,
+        'dato4' => $faker->name,
+        'dato5' => $faker->name,
+        'dato6' => $faker->name,
+        'dato7' => $faker->name,
+        'dato8' => $faker->name,
+        'dato9' => $faker->name,
+        'dato10' => $faker->name,
+        'dato11' => $faker->name,
+        'dato12' => $faker->name,
+        'dato13' => $faker->name,
+        'dato14' => $faker->name,
+        'dato15' => $faker->name,
+        'dato16' => $faker->name,
+        'dato17' => $faker->name,
+        'dato18' => $faker->name,
+        'dato19' => $faker->name,
+        'dato20' => $faker->name,
+        'direccion' => $faker->address,
+        'imagen' => $faker->name,
+        'imagen2' => $faker->name,
+        'imagen3' => $faker->name,
+        'imagen4' => $faker->name,
+        'imagen5' => $faker->name,
+        'imagen6' => $faker->name,
+        'imagen7' => $faker->name,
+        'imagen8' => $faker->name,
+        'imagen9' => $faker->name,
+        'imagen10' => $faker->name,
+        'maps' => $faker->name
+    ];
+});

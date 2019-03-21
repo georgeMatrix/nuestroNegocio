@@ -15,6 +15,7 @@ use \App\Tlapaleria;
 use \App\Muebleria;
 use \App\Ropa;
 use \App\Cocina;
+use \App\Salud;
 
 class NegociosTableSeeder extends Seeder
 {
@@ -39,5 +40,6 @@ class NegociosTableSeeder extends Seeder
         factory(Muebleria::class, 5)->create();
         factory(Ropa::class, 5)->create();
         factory(Cocina::class, 5)->create();
+        factory(\App\Salud::class, 5)->create();
     }
 }

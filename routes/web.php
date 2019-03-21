@@ -38,6 +38,7 @@ Route::resource('muebleria', 'MuebleriaController');
 Route::resource('regalos', 'RegalosController');
 Route::resource('ropa', 'RopaController');
 Route::resource('cocina', 'CocinaController');
+Route::resource('salud', 'SaludController');
 
 //Aun no tienen nada
 Route::resource('talleresE', 'TalleresEController');

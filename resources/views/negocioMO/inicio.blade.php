@@ -40,7 +40,19 @@
                                 <div><a href="#">Enero 1, 2019</a></div>
                             </div>
                             <h3 class="heading"><a href="{{route('veterinaria.index')}}">Veterinarias</a></h3>
-                            <p>Cuida a tus mascotas como ellos cuidan de ti</p>
+                            <p>Protege a tus mascotas como ellas cuidan de ti</p>
+                        </div>
+                    </div>
+                    <div class="blog-entry ftco-animate">
+                        <a href="{{route('salud.index')}}" class="blog-image">
+                            <img src="negocio/images/salud.jpg" class="img-fluid" alt="">
+                        </a>
+                        <div class="text py-4">
+                            <div class="meta">
+                                <div><a href="#">Enero 1, 2019</a></div>
+                            </div>
+                            <h3 class="heading"><a href="{{route('salud.index')}}">Salud</a></h3>
+                            <p>Es hora de cambiar tu vida</p>
                         </div>
                     </div>
                     <div class="blog-entry ftco-animate">
@@ -187,7 +199,7 @@
                                 <div><a href="#">Enero 1, 2019</a></div>
                             </div>
                             <h3 class="heading"><a href="{{route('banquete.index')}}">Banquetes</a></h3>
-                            <p>Todo lo que necesita tu automovil</p>
+                            <p>El mejor servicio para tu evento</p>
                         </div>
                     </div>
                     <div class="blog-entry ftco-animate">
