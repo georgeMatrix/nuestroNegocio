@@ -426,6 +426,7 @@
                         </div>
                     </div>
                 </div>
+
             @elseif(!empty($ropa))
                 <div class="slider-item js-fullheight" style="background-image: url({{asset($ropa->imagen)}});">
                     <div class="overlay"></div>
@@ -542,7 +543,7 @@
                     <div class="blog-entry ftco-animate">
                         <div class="text py-4">
                             <div class="meta">
-                                <div><a href="#">18 Abril, 2019</a></div>
+                                <div><a href="#">20 Abril, 2019</a></div>
                                 <div><a href="#">Fecha de Vencimiento</a></div>
                             </div>
                             <h3 class="heading"><a href="#">{{$veterinaria->nombre}}</a></h3>
@@ -583,7 +584,7 @@
                         <div class="text py-4">
                             <div class="meta">
                                 <div><a href="#">Ultima actualizacion de Imagen</a></div>
-                                <div><a href="#">18 de Marzo 2019</a></div>
+                                <div><a href="#">20 de Marzo 2019</a></div>
                             </div>
                             <h3 class="heading"><a href="#">Consulta</a></h3>
                         </div>
@@ -595,7 +596,7 @@
                         <div class="text py-4">
                             <div class="meta">
                                 <div><a href="#">Ultima actualizacion de Imagen</a></div>
-                                <div><a href="#">18 de Marzo 2019</a></div>
+                                <div><a href="#">20 de Marzo 2019</a></div>
                             </div>
                             <h3 class="heading"><a href="#">Vacunas</a></h3>
                         </div>
@@ -606,7 +607,7 @@
                     <div class="blog-entry ftco-animate">
                         <div class="text py-4">
                             <div class="meta">
-                                <div><a href="#">18 Abril, 2019</a></div>
+                                <div><a href="#">20 Abril, 2019</a></div>
                                 <div><a href="#">Fecha de Vencimiento</a></div>
                             </div>
                             <h3 class="heading"><a href="#">{{$banquete->nombre}}</a></h3>
@@ -643,7 +644,7 @@
                         <div class="text py-4">
                             <div class="meta">
                                 <div><a href="#">Ultima actualizacion de Imagen</a></div>
-                                <div><a href="#">18 de Marzo 2019</a></div>
+                                <div><a href="#">20 de Marzo 2019</a></div>
                             </div>
                             <h3 class="heading"><a href="#">Arroz rojo o blanco</a></h3>
                         </div>
@@ -655,7 +656,7 @@
                         <div class="text py-4">
                             <div class="meta">
                                 <div><a href="#">Ultima actualizacion de Imagen</a></div>
-                                <div><a href="#">18 de Marzo 2019</a></div>
+                                <div><a href="#">20 de Marzo 2019</a></div>
                             </div>
                             <h3 class="heading"><a href="#">Frijoles charros</a></h3>
                         </div>
@@ -936,13 +937,14 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="blog-entry ftco-animate">
                         <a href="#" class="blog-image">
-                            <img src="{{asset($cocina->imagen6)}}" class="img-fluid" alt="">
+                            <iframe src="{{$cocina->dato16}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </a>
                         <div class="text py-4">
                             <div class="meta">
-                                <div><a href="#">Ultima actualizacion de Imagen</a></div>
+                                <div><a href="#">Ultima actualizacion de video</a></div>
                                 <div><a href="#">18 de Marzo 2019</a></div>
                             </div>
                         </div>
